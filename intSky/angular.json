@@ -20,15 +20,15 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets",
-              {
-                "glob": "_redirects",
-                "input": "src",
-                "output": "/"
-              }
-            ],
+           "assets": [
+  "src/favicon.ico",
+  "src/assets",
+  {
+    "glob": "_redirects",
+    "input": "src",
+    "output": "/"
+  }
+],
             "styles": [
               "src/styles.css",
               "node_modules/ngx-toastr/toastr.css"
@@ -90,7 +90,12 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "_redirects",
+                "input": "src",
+                "output": "/"
+              }
             ],
             "styles": [
               "src/styles.css",
